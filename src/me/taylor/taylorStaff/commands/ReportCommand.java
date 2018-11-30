@@ -52,9 +52,9 @@ public class ReportCommand implements CommandExecutor {
 
                     // Staff Report Recieve
                     for (Player player : Bukkit.getServer().getOnlinePlayers()) {
-                        if (player.hasPermission("report.receive")) {
+                        if (player.hasPermission("moderation.report.receive")) {
                             String reported = args[0];
-                            player.sendMessage(ChatColor.GOLD + "[Report] " + ChatColor.WHITE +  reported + ChatColor.GRAY + " was reported by " + ChatColor.WHITE + sender.getName() + ChatColor.GRAY + " for " +  ChatColor.WHITE + x.toString());
+                            player.sendMessage(ChatColor.GOLD + "[Report] " + ChatColor.GRAY + reported + ": " + ChatColor.GRAY + x.toString() + "\nReported by: " + sender.getName();
                         }
 
                     }
