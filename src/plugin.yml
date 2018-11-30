@@ -1,0 +1,23 @@
+name: taylorStaff
+version: 1.0
+main: me.taylor.taylorStaff.taylorStaff
+authors: [taylor]
+commands:
+    report:
+           usage: /<command>
+    helpop:
+           usage: /<command>
+           aliases: [request]
+    freeze:
+          usage: /<command>
+          aliases: [ss]
+    ban:
+          usage: /<command>
+    kick:
+          usage: /<command>
+permissions:
+    freeze.freeze: {}
+    request.recieve: {}
+    report.recieve: {}
+    ban.ban: {}
+    kick.kick: {}
