@@ -10,7 +10,7 @@ Moderation plugin for minecraft, found this on a drive and decided to upload sin
 /kick <player> <reason> —  Kick's a player from the server.<br/>
   
 ### Permissions
-moderation.report.receive — Receive reports.
-moderation.freeze.freeze — Freeze and unfreeze players.
-moderation.request.receive — Receive requests.
-moderation.kick.kick — Kick players.
+moderation.report.receive — Receive reports.<br/>
+moderation.freeze.freeze — Freeze and unfreeze players.<br/>
+moderation.request.receive — Receive requests.<br/>
+moderation.kick.kick — Kick players.<br/>
