@@ -20,7 +20,7 @@ public class FreezeCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String s, String[] args) {
 
-        if(!sender.hasPermission("freeze.freeze")) {
+        if(!sender.hasPermission("moderation.freeze.freeze")) {
             sender.sendMessage(ChatColor.RED + "You do not have permission to execute this command.");
             return true;
         }
