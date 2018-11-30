@@ -29,7 +29,7 @@ public class KickCommand implements CommandExecutor {
 
         if (label.equalsIgnoreCase("kick")) {
             for (Player player : Bukkit.getServer().getOnlinePlayers()) {
-                if (player.hasPermission("kick.kick")) {
+                if (player.hasPermission("moderation.kick.kick")) {
                     if (args.length == 0) {
                         sender.sendMessage(this.prefix + ChatColor.RED + "Invalid Arguments!");
                     } else if (args.length == 1) {
