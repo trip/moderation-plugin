@@ -54,8 +54,8 @@ public class KickCommand implements CommandExecutor {
                             kicker = sender.getName();
                         }
 
-                        target.kickPlayer(ChatColor.RED + "You have been kicked from the serve by: " + kicker + "\nfor " + x.toString().trim());
-                        sender.sendMessage(ChatColor.GRAY + "(SILENT)" + ChatColor.GREEN + target.getName() + " was kicked from the server!");
+                        target.kickPlayer(ChatColor.RED + "You have been kicked from the server by: " + kicker + "\nfor " + x.toString().trim());
+                        sender.sendMessage(ChatColor.GRAY + "[SILENT]" + ChatColor.GREEN + target.getName() + " was kicked from the server!");
                     }
 
 
