@@ -39,7 +39,7 @@ public class HelpOPCommand implements CommandExecutor {
 
                 // Staff Request Receive
                 for (Player player : Bukkit.getServer().getOnlinePlayers()) {
-                    if (player.hasPermission("request.receive")) {
+                    if (player.hasPermission("moderation.request.receive")) {
                         player.sendMessage(this.prefix + ChatColor.WHITE + " " +sender.getName() + ChatColor.GOLD + " » " + ChatColor.WHITE + x.toString());
                     }
 
