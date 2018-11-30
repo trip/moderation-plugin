@@ -1,4 +1,4 @@
-# staffPlugin
+# Moderation
 
 Moderation plugin for minecraft, found this on a drive and decided to upload since I don't have anything else to upload.
 
