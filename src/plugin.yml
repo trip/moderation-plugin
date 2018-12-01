@@ -16,8 +16,7 @@ commands:
     kick:
           usage: /<command>
 permissions:
-    freeze.freeze: {}
-    request.recieve: {}
-    report.recieve: {}
-    ban.ban: {}
-    kick.kick: {}
+    moderation.freeze.freeze: {}
+    moderation.request.recieve: {}
+    moderation.report.recieve: {}
+    moderation.kick.kick: {}
