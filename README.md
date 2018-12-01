@@ -4,10 +4,10 @@ Moderation plugin for minecraft, found this on a drive and decided to upload sin
 
 ### Commands & Usage
 
-_/freeze_ _<player>_ — Freeze's a player to later be brought in for a screenshare.<br/>
-/report <player> <reason> —  Report's a player to staff.<br/>
-/helpop <message> —  Request's help from administrators.<br/>
-/kick <player> <reason> —  Kick's a player from the server.<br/>
+_freeze_ _<player>_ — Freeze's a player to later be brought in for a screenshare.<br/>
+_report_ <player> <reason> —  Report's a player to staff.<br/>
+_helpop_ <message> —  Request's help from administrators.<br/>
+_kick_ <player> <reason> —  Kick's a player from the server.<br/>
   
 ### Permissions
 _moderation.report.receive_ — Receive reports.<br/>
